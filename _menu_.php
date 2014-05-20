@@ -19,7 +19,7 @@
         <ul class="dropdown-menu">
           <li><a href="#">Renta</a></li>
           <li><a href="new_stuff.php">Cosa</a></li>
-          <li><a href="#">Cliente</a></li>
+          <li><a href="new_client.php">Cliente</a></li>
         </ul>
       </li>
     </ul>
