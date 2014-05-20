@@ -43,7 +43,7 @@
         <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="glyphicon glyphicon-user"></i> <b class="caret"></b></a>
         <ul class="dropdown-menu">
           <li><a href="#">Configuracion</a></li>
-          <li><a href="#">Cerrar sesion</a></li>
+          <li><a href="logout.php">Cerrar sesion</a></li>
         </ul>
       </li>
     </ul>
