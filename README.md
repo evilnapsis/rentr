@@ -9,3 +9,5 @@ En el sistema es posible:
 * Agregar Cosas para rentar
 * Manejar Inventario de las cosas que se rentan
 * Mantener el historial de rentas y clientes
+
+Para NeoWelder Labs http://neowelder.com
