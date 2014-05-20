@@ -6,7 +6,7 @@ $base = new Database();
 $con = $base->connect();
 $is_active = 0;
 
-echo $sql = "insert into rent (client_id,stuff_id,days) value(\"$_POST[client_id]\",\"$_POST[stuff_id]\",\"$_POST[days]\")";
+echo $sql = "insert into rent (client_id,stuff_id,days,created_at) value(\"$_POST[client_id]\",\"$_POST[stuff_id]\",\"$_POST[days]\",NOW())";
 $q= $con->query($sql);
 
 if($q){
