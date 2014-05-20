@@ -34,7 +34,7 @@
         <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="glyphicon glyphicon-dashboard"></i> <b class="caret"></b></a>
         <ul class="dropdown-menu">
           <li><a href="#">Rentas</a></li>
-          <li><a href="#">Inventario</a></li>
+          <li><a href="inventary.php">Inventario</a></li>
           <li><a href="stuffs.php">Cosas</a></li>
           <li><a href="clients.php">Clientes</a></li>
         </ul>

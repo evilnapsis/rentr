@@ -28,9 +28,10 @@ create table rent(
 	client_id int not null,
 	stuff_id int not null,
 	days int not null,
+	cantity int not null,
 	is_deliver boolean not null default 0,
+	is_input boolean not null default 0,
 	created_at datetime not null,
 	foreign key (client_id) references user(id),
 	foreign key (stuff_id) references stuff(id)
 );
-
