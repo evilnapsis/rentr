@@ -36,7 +36,7 @@
           <li><a href="#">Rentas</a></li>
           <li><a href="#">Inventario</a></li>
           <li><a href="stuffs.php">Cosas</a></li>
-          <li><a href="#">Clientes</a></li>
+          <li><a href="clients.php">Clientes</a></li>
         </ul>
       </li>
       <li class="dropdown">
