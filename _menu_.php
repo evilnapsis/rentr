@@ -17,7 +17,7 @@
       <li class="dropdown">
         <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="glyphicon glyphicon-ok"></i> Agregar <b class="caret"></b></a>
         <ul class="dropdown-menu">
-          <li><a href="#">Renta</a></li>
+          <li><a href="new_rent.php">Renta</a></li>
           <li><a href="new_stuff.php">Cosa</a></li>
           <li><a href="new_client.php">Cliente</a></li>
         </ul>
