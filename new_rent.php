@@ -23,7 +23,7 @@ include "_menu_.php";
 				<div class="col-md-8 col-md-offset-2">
 				<h2>Agregar Renta</h2>
 				<div class="well">
-<form class="form-horizontal" role="form" method="post" action="add_stuff.php">
+<form class="form-horizontal" role="form" method="post" action="add_rent.php">
   <div class="form-group">
     <label for="inputEmail1" class="col-lg-2 control-label">Cliente</label>
     <div class="col-lg-10">
@@ -64,7 +64,7 @@ while($r=$query->fetch_array()){$cnt++;}
 
 if($cnt>0){
   ?>
-  <select name="stuff_if" class="form-control">
+  <select name="stuff_id" class="form-control">
   <?php
   $query=$con->query("select * from stuff");
   while($r=$query->fetch_array()){
