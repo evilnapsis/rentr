@@ -22,3 +22,14 @@ create table stuff(
 	is_active boolean not null default 0,
 	created_at datetime not null
 );
+
+create table rent(
+	id int not null auto_increment primary key,
+	client_id int not null,
+	stuff_id int not null,
+	days int not null,
+	is_deliver boolean not null default 0,
+	foreign key (client_id) references user(id),
+	foreign key (stuff_id) references stuff(id)
+);
+
