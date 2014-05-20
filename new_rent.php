@@ -78,6 +78,13 @@ if($cnt>0){
 
 
   <div class="form-group">
+    <label for="inputEmail1" class="col-lg-2 control-label">Cantidad de cosas</label>
+    <div class="col-lg-10">
+      <input type="text" class="form-control" id="cantity" name="cantity" placeholder="Cantidad de cosas">
+    </div>
+  </div>
+
+  <div class="form-group">
     <label for="inputEmail1" class="col-lg-2 control-label">Tiempo (Dias)</label>
     <div class="col-lg-10">
       <input type="text" class="form-control" id="days" name="days" placeholder="Dias rentados">

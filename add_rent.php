@@ -10,7 +10,7 @@ if(!isset($_POST["is_input"])){
 // si no es una entrada
 
 
-echo $sql = "insert into rent (client_id,stuff_id,days,created_at) value(\"$_POST[client_id]\",\"$_POST[stuff_id]\",\"$_POST[days]\",NOW())";
+echo $sql = "insert into rent (client_id,stuff_id,cantity,days,created_at) value(\"$_POST[client_id]\",\"$_POST[stuff_id]\",\"$_POST[cantity]\",\"$_POST[days]\",NOW())";
 $q= $con->query($sql);
 
 if($q){
