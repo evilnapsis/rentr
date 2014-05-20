@@ -21,7 +21,7 @@ include "_menu_.php";
 ?>			
 			<div class="row">
 				<div class="col-md-12">
-				<h3>Informacion de la cosa</h3>
+				<h3>Informacion del cliente</h3>
 <?php
 if(isset($_COOKIE["added"])){
 	echo "<p class='alert alert-success'>Se ha agregado exitosamente la cosa a la base de datos.</p>";
@@ -33,16 +33,12 @@ if(isset($_COOKIE["added"])){
 <?php
 $db = new Database();
 $con = $db->connect();
-$query=$con->query("select * from stuff where id=$_GET[id]");
+$query=$con->query("select * from user where id=$_GET[id]");
 $id="";
 while($r=$query->fetch_array()){
-echo "<h2>$r[name]</h2>";
-echo "<p>$r[description]</p>";
+echo "<h2>$r[name] $r[lastname]</h2>";
+echo "<p>$r[email]</p>";
 $id = $r["id"];
-$price = $r["price"];
-echo <<<EEE
-<a href="" class="btn btn-lg btn-primary pull-right">$ $price</a>
-EEE;
 }
 
 ?>
