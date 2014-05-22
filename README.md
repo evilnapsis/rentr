@@ -10,4 +10,7 @@ En el sistema es posible:
 * Manejar Inventario de las cosas que se rentan
 * Mantener el historial de rentas y clientes
 
+Usuario: admin@rentr.co
+Password: admin
+
 Para NeoWelder Labs http://neowelder.com
